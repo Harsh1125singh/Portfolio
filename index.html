@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <script src="https://kit.fontawesome.com/5c77dcb7b8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="rightsection">
+            <img src="thakur.png " height="600px" alt="">
+        </div>
+        <div class="container">
+            <nav>
+                <img src="logo8.png" alt="" class="logo">
+                <ul  id="sidemenu">
+                    <Li><a href="#header">home</a></Li>
+                    <Li><a href="#about">abouth</a></Li>
+                    <Li><a href="#services">Extracurricular</a></Li>
+                    <Li><a href="#portfolio">Certificate</a></Li>
+                    <Li><a href="#contact">Contact</a></Li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <P>Software Devloper,</P>
+                <h1>HI,I'am a <span>Harsh Singh.</span></h1><br>
+                <h5>and I build for solving problems.Software Engineer<br>are specializing in building application and
+                    web
+                    app.<br>I love building projects. I enjoy creative thing that<br> live on the internet. My passion
+                    is solving multiple<br> problems that help for people. </h5>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="devloper.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>Hello! My name is Harsh and I enjoy creating things that live on the internet. Diligent and
+                        motivated final-year B.Tech student with a current CGPA of 7.65. With a strong educational and
+                        Learning background,completed 10th grade at Divine Public School, achieving an CGPA of 8.4, and
+                        12th grade with a remarkable percentage of 80 from the same institution.notable skills lies in
+                        his expertise in creating responsive websites.demonstrated a keen understanding of modern web
+                        design principles, employing the latest technologies to develop websites that seamlessly adapt
+                        to various devices and screen sizes.
+                        possesses a creative mindset and a passion for staying up-to-date with emerging trends in web
+                        development.
+                    </p><br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languageous and other skills: </span><br>C, C++, DSA, HTML, CSS,Javascript, React
+                                Js ,Node Js, Express Js, Mongo Db ,php,SQL, Git & Github, Tailwind CSS.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>portfolio website and Weather App :</span><br>Make a personal portfolio
+                                by
+                                using HTML,CSS
+                                ,Javascript. and weather app by using React js , node js.<br>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span> Educational Background : </span><br>
+                                Study B.tech from MMMUT, ECE Branch With a current CGPA of 7.51(2k20-2k24) || 10th Grade
+                                with a CGPA of 8.4 (2k16-2k17)|| 12th Grade with a remarkable percentage of
+                                78.4 (2k18-2k19).
+                            </li><br>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Extracurricular Activity</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Volunteer at Shine NGO</h3><br>
+                    <p>Our prime focus is on providing proactive education at minimal cost. We focus on rural areas
+                        mostly but will expand for low-income urban families for sure. Also, we have versatile
+                        objectives of providing incentives during calamities like extreme winter, flood etc. We also
+                        spread awareness about health as and when necessary.We, SHINE Education and Welfare Society,
+                        provide financial, moral support to poor children and encourage them to gain knowledge by
+                        handling over textbooks, stationaries, magzines etc.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h3>Subject Matter Expert at Chegg</h3><br>
+                    <p>The teaching-learning dynamics have evolved from Gurukul study to classroom studies and from
+                        personal tutoring to online learning. The evolution comes with information( or learning)
+                        delivery needs and the advancement of technology that facilitates those learning demands.Ed-tech
+                        companies have developed interactive platforms where the technology has left every study
+                        resource at the student’s disposal.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+
+                    <i class="fa-brands fa-app-store"></i>
+                    <h3>Study abouth Finance and Marketing</h3><br>
+                    <p> Finance and Marketing are two domains of study that every business needs. In simple terms, the
+                        marketing department takes responsibility for generating revenue. The finance department is
+                        responsible for transporting this revenue in different activities to ensure maximum growth of
+                        the wealth.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+
+        <div class="container">
+            <h1 class="sub-title">Certificates and Internship</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="tcs.png" alt=""><br>
+                    <div class="layer">
+                        <h3>tcs ion course Certificate </h3><br>
+                        <p>tCS ion provides technology by means of a unique IT-as-a-Service TCS iON serves its clients
+                            with the help of best practices gained through TCS' global experience, domestic market
+                            reach, skills, and delivery capabilities.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Round.png" alt=""><br>
+                    <div class="layer">
+                        <h3>codekaze Round 2</h3><br>
+                        <p>one of the largest tech communities in India, CodeKaze is the most awaited coding competition
+                            in India. A coding competition such as CodeKaze would be a great learning experience as a
+                            coder . </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="soft.png" alt=""><br>
+                    <div class="layer">
+                        <h3>Codesoft Internship</h3><br>
+                        <p>Successfully completed and made a portfolio and landing page, resulting in increased user engagement and improved website 
+                            performance.
+                             Developed a calculator that enhanced user experience by implementing specific functionality or feature, leading to increased user 
+                            retention. </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>hsingh.21.2020@gmail.com</p><br>
+                    <p> <i class="fa-solid fa-square-phone"></i>7355145445</p><br>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/ankitasingh.singh.9862273?mibextid=ZbWKwL"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/harsh1125singh?igshid=ZDc4ODBmNjlmNQ=="><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/HARSHSI54176477?t=NU_zG61sZKQlQv49yjSLWg&s=08"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/harsh-singh-4568a924a"><i
+                                class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" reqired>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copywrite">
+                <p>Copwrite@Harsh, Made with <i class="fa-solid fa-heart"></i>Personal website</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tablink.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+var sidemenu =document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right="0";
+}
+function closemenu(){
+    sidemenu.style.right="-200px";
+}
+
+    </script>
+</body>
+
+</html>
